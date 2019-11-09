@@ -52,3 +52,10 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Shim to load environment variables from .env into ENV in development.
+gem 'dotenv-rails'
+
+# The LINE Messaging API SDK for Ruby makes it easy to develop bots using LINE Messaging API,
+# and you can create a sample bot within minutes.
+gem 'line-bot-api'
