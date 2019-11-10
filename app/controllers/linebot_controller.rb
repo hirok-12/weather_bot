@@ -1,3 +1,13 @@
+# コントローラ処理
+# ①LINEでメッセージが送られてきた際の返信
+# ②友達登録した際のDBへのIDの登録
+# ③友達解除した際のDBからのIDの削除
+#
+# webhook -> https://weather-bot-1205.herokuapp.com/callback
+# イベント　-> 友だち追加やメッセージの送信(https://developers.line.biz/ja/reference/messaging-api/)
+
+
+# [TODO]３つの処理のメソッドを切り分ける
 class LinebotController < ApplicationController
   require 'line/bot'  # gem 'line-bot-api'
   require 'open-uri'
