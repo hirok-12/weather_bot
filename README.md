@@ -1,24 +1,24 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+自動天気予報LINEBOT
 
-Things you may want to cover:
+## 概要  
+毎朝テレビで天気予報を確認するのが面倒なので、友達登録すると降水確率が50%以上の時にLINEで教えてくれるアプリを開発しました。
 
-* Ruby version
+友達登録はQRコードで可能です。
+<img width="407" alt="スクリーンショット 2019-11-10 15 05 02" src="https://user-images.githubusercontent.com/38427337/68539770-ac2b8880-03cb-11ea-8953-78563b5eb327.png">
 
-* System dependencies
 
-* Configuration
+## 情報
 
-* Database creation
+* Ruby version  
+ruby '2.6.3'
 
-* Database initialization
+* Rails version  
+Rails 6.0.1
 
-* How to run the test suite
+* Database  
+postgres (PostgreSQL) 11.5
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* PaaS
+Heroku
