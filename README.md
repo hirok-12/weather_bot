@@ -11,9 +11,9 @@
 
 ## 友達追加方法
 
-QRコードを読み込むだけです。
-<img width="407" alt="スクリーンショット 2019-11-10 15 05 02" src="https://user-images.githubusercontent.com/38427337/68539770-ac2b8880-03cb-11ea-8953-78563b5eb327.png">
+LINEアプリへのQRコードを読み込むだけです。
 
+![image](https://user-images.githubusercontent.com/38427337/68682894-354be680-05a9-11ea-8814-772caf737e31.png)
 
 ## 情報
 
