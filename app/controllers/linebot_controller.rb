@@ -38,9 +38,9 @@ class LinebotController < ApplicationController
           when /.*(今日|きょう).*/
             uri = URI('http://weather.livedoor.com/forecast/webservice/json/v1?city=130010')
             weather_data = JSON.parse(Net::HTTP.get(uri))
-            day_after_tomorrow_forecast = weather_data['forecasts'][0]
+            today = weather_data['forecasts'][0]
             push =
-              "#{day_after_tomorrow_forecast['dateLabel']}の天気は#{day_after_tomorrow_forecast['telop']}です。" \
+              "#{today['dateLabel']}の天気は#{today['telop']}です。" \
                "http://weather.livedoor.com/area/forecast/1310400"
           when /.*(明日|あした).*/
             uri = URI('http://weather.livedoor.com/forecast/webservice/json/v1?city=130010')
